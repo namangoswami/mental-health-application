@@ -2,7 +2,7 @@ import React from 'react'
 
 function ChatBot() {
   return (
-    <div>ChatBot</div>
+    <iframe src='https://javascript-chatbot-master.vercel.app/' title='chat-bot' width='100%' height='100%'/>
   )
 }
 
