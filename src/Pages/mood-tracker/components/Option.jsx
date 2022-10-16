@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import * as dataHandling from "../functions/dataHandling";
-import "./Option.scss";
+import "./Option.css";
 
 const Option = (props) => {
   const { name, options, setOptions } = props;

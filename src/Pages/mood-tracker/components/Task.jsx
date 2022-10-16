@@ -1,4 +1,4 @@
-import "./Task.scss";
+import "./Task.css";
 import * as dataHandling from "../functions/dataHandling";
 import * as dateHandling from "../functions/dateHandling";
 import { useState, useEffect } from "react";

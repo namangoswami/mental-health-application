@@ -16,6 +16,7 @@ import {
   Star,
   UserIcon,
 } from '../../assets/index';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -23,35 +24,31 @@ const Sidebar = () => {
       <Title>MH</Title>
 
       <Container>
+        <Link to=''>
+
         <IconContainer>
           <img src={Dashboard} alt="" />
           <Text>Dashboard</Text>
         </IconContainer>
-
+        </Link>
+        <Link to='mood-tracker'>
         <IconContainer>
           <img src={UserIcon} alt="" />
           <Text>Mood</Text>
         </IconContainer>
-
+        </Link>
+        <Link to='chat'>
         <IconContainer>
           <img src={Message} alt="" />
           <Text>Chat</Text>
         </IconContainer>
-
-        {/* <IconContainer>
-          <img src={Star} alt="" />
-          <Text>Starred</Text>
-        </IconContainer>
-
+        </Link>
+        <Link to='quotes'>
         <IconContainer>
-          <img src={Request} alt="" />
-          <Text>Requests</Text>
+          <img src={Message} alt="" />
+          <Text>Quotes</Text>
         </IconContainer>
-
-        <IconContainer>
-          <img src={Billing} alt="" />
-          <Text>Billing</Text>
-        </IconContainer> */}
+        </Link>
       </Container>
 
       <LastContainer>

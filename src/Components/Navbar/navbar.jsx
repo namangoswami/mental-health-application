@@ -33,7 +33,6 @@ function Navbar() {
 			</div>
 			<div>
 				Username
-				<Button>+</Button>
 			</div>
 		</Wrapper>
 	);

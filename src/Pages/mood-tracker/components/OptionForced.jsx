@@ -1,4 +1,4 @@
-import "./Option.scss";
+import "./Option.css";
 import { useEffect } from "react";
 import * as dataHandling from "../functions/dataHandling";
 

@@ -1,9 +1,9 @@
-import "./App.scss";
 import { useState } from "react";
 import Options from "./pages/Options";
 import Today from "./pages/Today";
 import Stats from "./pages/Stats";
 import * as dataHandling from "./functions/dataHandling";
+import "./styles.css";
 
 function App() {
   const [options, setOptions] = useState([
@@ -31,7 +31,7 @@ function App() {
   const [activePageID, setActivePageID] = useState(1); // for setting CSS class
 
   return (
-    <div>
+    <div className="mood-container" >
       <h1>MoodMap</h1>
 
       <nav id="top-nav">

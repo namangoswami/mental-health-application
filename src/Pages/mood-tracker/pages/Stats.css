@@ -1,12 +1,14 @@
 h3 {
-  padding-bottom: var(--y-padding);
+    padding-bottom: var(--y-padding);
 }
 
 .stats-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  > .stats-sub-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stats-container>.stats-sub-container {
     width: 75px;
     height: 75px;
     margin: 0 15px 15px 15px;
@@ -17,11 +19,13 @@ h3 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    .stats-smiley {
-      font-size: 2rem;
-    }
-  }
-  .stats-info {
+}
+
+.stats-container>.stats-sub-container .stats-smiley {
+    font-size: 2rem;
+}
+
+.stats-container .stats-info {
     position: absolute;
     margin-bottom: 150px;
     max-width: 130px;
@@ -35,18 +39,21 @@ h3 {
     opacity: 0;
     cursor: default;
     pointer-events: none;
-    ul {
-      padding-top: 1.5rem;
-      list-style: none;
-      li {
-        padding-bottom: 5px;
-      }
-    }
-  }
-  > div:hover > .stats-info {
+}
+
+.stats-container .stats-info ul {
+    padding-top: 1.5rem;
+    list-style: none;
+}
+
+.stats-container .stats-info ul li {
+    padding-bottom: 5px;
+}
+
+.stats-container>div:hover>.stats-info {
     opacity: 0.98;
-  }
-  .stats-info:hover {
+}
+
+.stats-container .stats-info:hover {
     display: none;
-  }
 }

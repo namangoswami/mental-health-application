@@ -6,7 +6,7 @@ import Login from './Pages/auth/Login';
 import Signup from './Pages/auth/Signup';
 import Dashboard from './Pages/dashboard/Dashboard';
 import ChatBot from './Pages/chat-bot/chat-bot';
-import MoodTracker from './Pages/mood-tracker/Mood-tracker';
+import MoodTracker from './Pages/mood-tracker/App';
 import Quotes from './Pages/quotes/Quotes';
 import RouteParent from './Pages/route-parent/RouteParent';
 function App() {
