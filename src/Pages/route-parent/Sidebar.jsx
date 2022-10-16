@@ -25,11 +25,6 @@ const Sidebar = () => {
 
       <Container>
         <Link to=''>
-
-        <IconContainer>
-          <img src={Dashboard} alt="" />
-          <Text>Dashboard</Text>
-        </IconContainer>
         </Link>
         <Link to='mood-tracker'>
         <IconContainer>

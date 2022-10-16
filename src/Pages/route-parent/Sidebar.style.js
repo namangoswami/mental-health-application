@@ -4,7 +4,7 @@ export const Wrapper = styled.div `
   width: 140px;
   position: fixed;
   height: 100vh;
-  background: #0080ff;
+  background: #d4694b;
 `;
 export const Container = styled.div `
   margin: 20px 0;
@@ -39,7 +39,9 @@ export const IconContainer = styled.div `
     object-fit: contain;
     z-index: 5;
   }
-
+  & a,& a:hover{
+    text-decoration: none;
+  }
   &:hover {
     background: #fff;
     color: #000;
@@ -52,7 +54,7 @@ export const IconContainer = styled.div `
       top: 13px;
       position: absolute;
       z-index: 1;
-      background: #0080ff;
+      background: #d4694b;
     }
 
     cursor: pointer;
@@ -90,7 +92,7 @@ export const LastContainer = styled.div `
         left: 10px;
         position: absolute;
         z-index: 1;
-        background: #0080ff;
+        background: #d4694b;
       }
 
       cursor: pointer;
